@@ -1,0 +1,239 @@
+/* Product Name */
+.product_deals__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--text-primary);
+}
+
+/* Product Deals Choose */
+.product_deals__choose {
+  margin-top: 24px;
+}
+
+.product_deals__choose span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--text-secondary);
+}
+
+/* Product Deals DropDown */
+.product_deals__dropdown {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Offer Container */
+.product_deals__offers {
+  margin-top: 40px;
+  display: flex;
+}
+
+/* Offers content */
+.product_deals__offers_content {
+  width: 33%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.product_deals__offers_content:not(:last-child) {
+  margin-right: 32px;
+}
+
+/* Offer Image Container */
+.product_deals__offers_image {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.product_deals__offers_image img {
+  max-height: 25px;
+  max-width: 100px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Price */
+.product_deals__price {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Seller Price */
+.product_deals__seller_price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_deals__seller_price p {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.product_deals__seller_price span {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.product_deals__seller_price span s {
+  font-weight: normal;
+  margin-right: 5px;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* Cashback Price */
+.product_deals__priceagain_cashback {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Best Deal Container */
+.product_deals__best {
+  padding: 20px;
+}
+
+.product_deals__best_deal {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--text-primary);
+}
+
+.product_deals__best__button {
+  width: 100%;
+  padding: 8px 16px;
+  background: var(--secondary-color);
+  border-radius: 2.5px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: var(--white-color);
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+/* Responsive 1250px */
+@media only screen and (max-width: 1250px) {
+  .product_deals__offers {
+    width: 100%;
+  }
+
+  .product_deals__offers_content {
+    width: 33%;
+  }
+}
+
+/* Responsive 768px */
+@media only screen and (max-width: 768px) {
+  .product_deals__offers {
+    flex-wrap: wrap;
+    flex: 1;
+  }
+
+  .product_deals__offers_content,
+  .product_deals__offers_content:not(:last-child) {
+    width: 48%;
+    justify-content: space-between;
+  }
+
+  .product_deals__offers_content:not(:nth-child(2n)),
+  .product_deals__offers_content,
+  .product_deals__offers_content:not(:last-child) {
+    margin-right: 14px;
+  }
+
+  .product_deals__offers_content:last-child {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Responsive 720px */
+@media only screen and (max-width: 720px) {
+  .product_deals__offers {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .product_deals__offers_content,
+  .product_deals__offers_content:not(:last-child),
+  .product_deals__offers_content:last-child {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  /* Product Deals Choose */
+  .product_deals__choose span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .product_deals__price {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .product_deals__seller_price span s {
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  /* Cashback Price */
+  .product_deals__priceagain_cashback {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+  }
+
+  .product_deals__best_deal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .product_deals__best__button {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 3.5px;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

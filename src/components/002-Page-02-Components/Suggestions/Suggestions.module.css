@@ -1,0 +1,296 @@
+/* Best Products */
+.best_products {
+  margin-top: 72px;
+}
+
+/* Best Products Text Container Top */
+.best_products__text_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.best_products__text_container > p {
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: var(--text-primary);
+}
+
+.best_products__text_container > a {
+  font-size: 18px;
+  line-height: 22px;
+  color: #505050;
+}
+
+/* Best Products Container */
+.best_products__best_deal_container {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Best Products Box */
+.best_products__best_product_box {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: var(--white-color);
+  width: 100%;
+}
+
+.best_products__best_product_box:not(:last-child) {
+  margin-right: 16px;
+}
+
+/* Best Products Image Container */
+.best_products__image_container {
+  height: 188px;
+}
+
+.best_products__image_container img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+/* Best Products Text Content */
+.best_products__text_content {
+  margin: 16px 20px;
+}
+
+.best_products__text_content > p {
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.8;
+  margin: 8px 0 16px 0;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 60px;
+}
+/* Best Deal Product Name */
+.best_products__brand_name {
+  height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.5;
+}
+
+/* Best Deal Product Price */
+.best_products__price {
+  height: 29px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.best_products__price > s {
+  height: 15px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: line-through;
+  color: var(--text-secondary);
+  margin-left: 10px;
+}
+
+/* Best Product Buy Now Button */
+.best_products__text_content > button {
+  width: 100%;
+  margin: 16px 0;
+  padding: 12px 24px;
+  font-weight: 600;
+  line-height: 14px;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  background-color: var(--background-color);
+  border: 2px solid var(--orange-shade1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Responsive max-width 1200px */
+@media screen and (max-width: 1200px) {
+  /* Best Products Container */
+  .best_products__best_deal_container {
+    flex-wrap: wrap;
+  }
+
+  /* Best Products Box */
+  .best_products__best_product_box {
+    width: 30%;
+  }
+
+  .best_products__best_product_box:not(:nth-child(3)) {
+    margin-right: 2%;
+  }
+}
+
+/* Responsive max-width 991px */
+@media screen and (max-width: 991px) {
+  /* Best Products */
+  .best_products {
+    margin-top: 50px;
+  }
+
+  /* Best Products Text Container Top */
+  .best_products__text_container {
+    margin-bottom: 30px;
+  }
+
+  .best_products__text_container > p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .best_products__text_container > a {
+    color: var(--primary-color);
+  }
+
+  /* Best Products Container */
+  .best_products__best_deal_container {
+    justify-content: center;
+  }
+
+  /* Best Products Text Content */
+  .best_products__text_content {
+    margin: 8px 20px;
+  }
+
+  .best_products__text_content > p {
+    line-height: 20px;
+    margin: 14px 0 12px;
+    font-size: 14px;
+  }
+
+  /* Best Deal Product Name */
+  .best_products__brand_name {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  /* Best Deal Product Price */
+  .best_products__price {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .best_products__price > s {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  /* Best Product Buy Now Button */
+  .best_products__text_content > button {
+    margin: 8px 0;
+    padding: 8px 16px;
+  }
+}
+
+/* Responsive max-width 768px */
+@media screen and (max-width: 768px) {
+  /* Best Products Container */
+  .best_products__best_deal_container {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: scroll;
+    justify-content: space-between;
+  }
+
+  .best_products__best_deal_container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .best_products__best_deal_container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Best Product Box */
+  .best_products__best_product_box,
+  .best_products__best_product_box:not(:last-child) {
+    width: 126px;
+    overflow: visible;
+    width: 126px;
+    border-radius: 4.34483px;
+    margin: 0px 8px;
+  }
+
+  /* Best Products Text Container Top */
+  .best_products__text_container {
+    margin: 30px 0 24px 0;
+  }
+
+  .best_products__text_container > p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .best_products__text_container > a {
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--primary-color);
+  }
+
+  /* Best Products Image Container */
+  .best_products__image_container {
+    width: 125px;
+    height: 100px;
+  }
+
+  .best_products__image_container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+  /* Best Products Text Content */
+  .best_products__text_content {
+    margin: 7px 10px;
+  }
+
+  .best_products__text_content > p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  /* Best Deal Product Name */
+  .best_products__brand_name {
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  /* Best Deal Product Price */
+  .best_products__price {
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .best_products__price > s {
+    height: 10px;
+    font-size: 8px;
+    line-height: 10px;
+    margin-left: 4px;
+  }
+
+  /* Best Product Buy Now Button */
+  .best_products__text_content > button {
+    margin: 16px 0;
+    padding: 12px 24px;
+    height: 10px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+/* Banner Image */
+.banner_image {
+    width: 100%;
+}
+
+.banner_image img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner_image {
+        height: 168px;
+    }
+
+    .banner_image img {
+        height: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+}

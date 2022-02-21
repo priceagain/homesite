@@ -1,0 +1,80 @@
+/* Navbar Bottom */
+
+.navbar_bottom__container {
+    background-color: var(--white-color);
+    box-shadow: 8px 0px 16px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+}
+
+.navbar_bottom {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.navbar_bottom:not(:first-child) {
+    padding-left: 10px;
+}
+
+/* Icons */
+.navbar_bottom__menu_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #CBCBD4;
+    cursor: pointer;
+}
+
+.navbar_bottom__menu_icon a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #CBCBD4;
+}
+
+.navbar_bottom__menu_icon span {
+    height: 13px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+}
+
+.navbar_bottom__menu_icon:not(:nth-child(4n)) a span {
+    margin-top: 3px;
+    height: 15px;
+}
+
+/* Rupee Name */
+.navbar_bottom__menu_icon a h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Active Icons */
+.active {
+    position: relative;
+}
+
+.active * {
+    color: var(--secondary-color);
+}
+
+.active::before {
+    position: absolute;
+    content: "";
+    width: 120%;
+    height: 2px;
+    border-radius: 100px;
+    top: -10px;
+    left: -4px;
+    background: var(--secondary-color);
+}

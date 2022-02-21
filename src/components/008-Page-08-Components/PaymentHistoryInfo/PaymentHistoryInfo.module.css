@@ -1,0 +1,174 @@
+/* Main */
+.paymentInfo {
+    margin-top: 32px;
+}
+
+/* Heading */
+.paymentInfo__heading h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--text-primary);
+}
+
+/* Container */
+.paymentInfo__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+/* DropDown Container */
+.paymentInfo__dropdown_container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.paymentInfo__dropdown_container > span {
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--text-secondary);
+}
+
+/* DropDown */
+.paymentInfo__dropdown {
+    margin: 0 16px;
+}
+
+/* Search Container */
+.paymentInfo__search_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.paymentInfo__search_container > span {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--text-secondary);
+    margin-right: 10px;
+}
+
+.paymentInfo__search_container > input {
+    border: 2px solid rgba(0,0,0,0.05);
+    border-radius: 5px;
+    height: 48px;
+    width: 40%;
+    padding: 10px;
+    outline: rgba(0,0,0,0.05);
+    background-color: var(--background-color);
+}
+
+/* Table Container */
+.paymentInfo__table_container {
+    margin-top: 50px;
+    text-align: center;
+    height: 530px;
+    overflow: scroll;
+}
+
+.paymentInfo__table_container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.paymentInfo__table_container {
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.paymentInfo__table_container > table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.paymentInfo__table_container td, .paymentInfo__table_container th {
+    padding: 8px;
+}
+
+.paymentInfo__table_container td:not(:last-child), .paymentInfo__table_container th:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.paymentInfo__table_container th {
+    background-color: #f2f2f2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+}
+
+.paymentInfo__table_container th {
+    padding: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 25vw;
+    background: white;
+}
+
+.paymentInfo__table_container table thead th {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    padding: 20px;
+    background-color: var(--grey-shade1);
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    /* Main */
+    .paymentInfo {
+        margin-top: 74px;
+    }
+
+    /* Heading */
+    .paymentInfo__heading h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+    }
+
+    .paymentInfo__heading > h1 > a {
+        margin-right: 14px;
+        display: flex;
+        align-items: center;
+        color: var(--text-primary);
+    }
+
+    /* Table Container */
+    .paymentInfo__table_container {
+        margin-top: 24px;
+    }
+
+    .paymentInfo__table th {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .paymentInfo__table_container {
+        width: 100%;
+        overflow: scroll;
+        position: relative;
+        height: 100%;
+    }
+
+    .paymentInfo__table_container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .paymentInfo__table_container {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .paymentInfo__table_container td:not(:last-child), .paymentInfo__table_container th:not(:last-child), .paymentInfo__table_container td, .paymentInfo__table_container th {
+        border: 0;
+        border-bottom: 1px solid #ddd;
+    }
+}

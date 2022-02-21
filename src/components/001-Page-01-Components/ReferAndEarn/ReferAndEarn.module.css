@@ -1,0 +1,152 @@
+/* Refer And Earn */
+.refer_and_earn {
+    margin-top: 96px;
+}
+
+/* Refer And Earn Head Text */
+.refer_and_earn__head_text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+/* Image Container */
+.refer_and_earn__image_container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.refer_and_earn__image_container img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Text Container */
+.refer_and_earn__text_container {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: var(--white-color);
+}
+
+.refer_and_earn__text_container p {
+    font-size: 36px;
+    line-height: 54px;
+    width: 80%;
+}
+
+.refer_and_earn__text_container span {
+    display: flex;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 8px 0 32px 0;
+}
+
+.refer_and_earn__text_container button {
+    padding: 12px 24px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Responsive 991px max-width */
+    @media screen and (max-width:991px) {
+    /* Refer And Earn */
+    .refer_and_earn {
+        margin-top: 50px;
+    }
+
+    /* Refer And Earn Head Text */
+    .refer_and_earn__head_text {
+        text-align: start;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* Text Container */
+    .refer_and_earn__text_container {
+        top: 35%;
+        left: 5%;
+    }
+
+    .refer_and_earn__text_container p {
+        font-size: 24px;
+        line-height: 34px;
+        width: 80%;
+    }
+
+    .refer_and_earn__text_container span {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 5px 0 24px 0;
+    }
+
+    .refer_and_earn__text_container button {
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+}
+
+/* Responsive 768px max-width */
+    @media screen and (max-width:768px) {
+    /* Refer And Earn */
+    .refer_and_earn {
+        margin-top: 38px;
+    }
+
+
+    .refer_and_earn__text_container p {
+        width: 70%;
+    }
+
+    .refer_and_earn__text_container span {
+        line-height: 13px;
+        margin: 10px 0 32px 0;
+    }
+
+    .refer_and_earn__text_container button {
+        padding: 16px 24px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive 500px max-width */
+    @media screen and (max-width:500px) {
+    /* Refer And Earn */
+    .refer_and_earn {
+        margin-top: 32px;
+    }
+
+    /* Refer And Earn Head Text */
+    .refer_and_earn__head_text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* Text Container */
+    .refer_and_earn__text_container {
+        top: 30%;
+        left: 5%;
+    }
+
+    .refer_and_earn__text_container p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 60%;
+    }
+
+    .refer_and_earn__text_container span {
+        font-size: 10px;
+        line-height: 13px;
+        margin: 5px 0 18px 0;
+    }
+
+    .refer_and_earn__text_container button {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+}

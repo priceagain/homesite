@@ -1,0 +1,178 @@
+.missing_cashbackinfo {
+    margin-top: 32px;
+}
+
+/* Heading */
+.missing_cashbackinfo__text_heading h1 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.missing_cashbackinfo__text_heading > h1 > a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--text-primary);
+}
+
+/* Paragraph */
+.missing_cashbackinfo__text_content {
+    display: flex;
+    background-color: var(--orange-shade3);
+    padding: 24px;
+    border-radius: 7px;
+}
+
+.missing_cashbackinfo__text_content p {
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-secondary);
+}
+
+/* Button */
+.missing_cashbackinfo__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--secondary-color);
+    border-radius: 4px;
+    margin: 32px 0 64px;
+    cursor: pointer;
+}
+
+.missing_cashbackinfo__button span {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.missing_cashbackinfo__para {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+.missing_cashbackinfo__para::before {
+    content: "*";
+    color: var(--secondary-color);
+}
+
+/* Form Container */
+.missing_cashbackinfo__form_container {
+    margin-top: 32px;
+}
+
+/* Date */
+.missing_cashbackinfo__date {
+    border: 2px solid var(--grey-shade1);
+    border-radius: 5px;
+    padding: 12px 24px;
+    max-width: 380px;
+    color: var(--text-secondary);
+}
+
+.missing_cashbackinfo__date > label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.missing_cashbackinfo__date > label > * {
+    width: inherit;
+}
+
+.missing_cashbackinfo__date label input, .missing_cashbackinfo__date label input:focus {
+    border: 0px;
+    outline: none;
+}
+
+.missing_cashbackinfo__date label input {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Calender */
+.missing_cashbackinfo__calender {
+    background-color: var(--background-color);
+}
+
+/* Dropdown */
+.missing_cashbackinfo__label {
+    margin-left: 24px;
+}
+
+.missing_cashbackinfo__select {
+    padding: 0 24px;
+}
+
+.missing_cashbackinfo__select > svg {
+    margin-right: 24px;
+}
+
+/* Responsive 991px */
+@media screen and (max-width: 991px) {
+    /* Heading */
+    .missing_cashbackinfo__text_heading h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+
+    /* Paragraph */
+    .missing_cashbackinfo__text_content {
+        padding: 20px;
+        border-radius: 6px;
+    }
+
+    .missing_cashbackinfo__text_content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    .missing_cashbackinfo {
+        margin-top: 82px;
+    }
+
+    /* Heading */
+    .missing_cashbackinfo__text_heading h1 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* Paragraph */
+    .missing_cashbackinfo__text_content {
+        padding: 20px;
+        border-radius: 6px;
+    }
+    
+    .missing_cashbackinfo__text_content p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    /* Calender Icon */
+    .missing_cashbackinfo__date > label > * {
+        overflow: hidden
+    }
+
+    /* Form Container */
+    .missing_cashbackinfo__form_container {
+        margin-top: 16px;
+    }
+
+}

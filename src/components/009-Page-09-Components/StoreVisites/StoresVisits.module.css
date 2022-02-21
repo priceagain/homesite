@@ -1,0 +1,132 @@
+.store_visits {
+  margin-top: 32px;
+  padding-bottom: 16px;
+}
+
+/* Heading */
+.store_visits__text_heading h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+/* Card Container */
+.store_visits__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 16px;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+/* Card */
+.store_visits__card {
+  background: var(--white-color);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+  padding: 30px 21px;
+}
+
+/* Card Image */
+.store_visits__image_container {
+  width: 130px;
+  height: 50px;
+}
+
+.store_visits__image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Card Button */
+.store_visits__card button {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 24px;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+  .store_visits {
+    margin-top: 74px;
+  }
+
+  /* Heading */
+  .store_visits__text_heading h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+  }
+
+  .store_visits__text_heading > h1 > a {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+  }
+
+  /* Card Container */
+  .store_visits__container {
+    grid-template-columns: auto auto;
+    grid-gap: 8px;
+  }
+
+  /* Card */
+  .store_visits__card {
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 18px;
+    padding: 20px 10px;
+  }
+
+  /* Card Image */
+  /* .store_visits__image_container {
+    width: 60px;
+    height: 60px;
+  } */
+
+  /* Card Button */
+  .store_visits__card button {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 18px;
+    border-radius: 4px;
+    width: 80%;
+  }
+}
+
+/* Responsive 550px */
+@media screen and (max-width: 550px) {
+  /* Card Button */
+  .store_visits__card button {
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 14px;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+  /* Card Image */
+  .store_visits__image_container {
+    width: 100px;
+    height: 40px;
+  }
+}

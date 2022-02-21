@@ -1,0 +1,214 @@
+.overview_info {
+  width: 100%;
+  margin-top: 32px;
+}
+
+/* Name */
+.overview_info__name {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 32px;
+}
+
+/* Container */
+.overview_info__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Main Card */
+.overview_info__main_card {
+  background: linear-gradient(95.84deg, #073cae -82.64%, #001a6a 140.22%);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: var(--white-color);
+  padding: 32px 72px 32px 32px;
+  margin-right: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview_info__main_card_left p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+
+.overview_info__main_card_left > h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.overview_info__main_card_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview_info__main_card_right > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 8px;
+}
+
+.overview_info__main_card_right > p:not(:first-child) {
+  margin-top: 16px;
+}
+
+/* Earnings Card */
+.overview_info__card_earnings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eeeeee;
+  border: 2px solid rgba(18, 18, 18, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 50%;
+  padding: 54px 35px;
+}
+
+.overview_info__card_earnings:not(:last-child) {
+  margin-right: 12px;
+}
+
+.overview_info__card_earnings > p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.overview_info__card_earnings > span {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.overview_info > button {
+  margin-top: 24px;
+  padding: 16px 24px;
+  width: 49%;
+  height: 49px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Card Content */
+.overview_info__content_card {
+  display: flex;
+  width: 100%;
+  margin-top: 54px;
+}
+
+/* Responsive 991px */
+@media only screen and (max-width: 991px) {
+  .overview_info {
+    margin-top: 24px;
+  }
+
+  /* Name */
+  .overview_info__name {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 28px;
+  }
+
+  /* Main Card */
+  .overview_info__main_card {
+    padding: 28px 60px 28x 28px;
+  }
+
+  .overview_info__main_card_left p {
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 12px;
+  }
+
+  .overview_info__main_card_left > h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .overview_info__main_card_right > span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .overview_info__main_card_right > p:not(:first-child) {
+    margin-top: 15px;
+  }
+
+  /* Earnings Card */
+  .overview_info__card_earnings {
+    width: 50%;
+    padding: 40px 30px;
+  }
+
+  .overview_info__card_earnings:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .overview_info__card_earnings > p {
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 12px;
+  }
+
+  .overview_info__card_earnings > span {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  /* Card Content */
+  .overview_info__content_card {
+    margin-top: 24px;
+  }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+  /* Mobile Container */
+  .overview_mob__container {
+    margin-top: 50px;
+    padding: 16px;
+    background-color: var(--primary-color);
+  }
+
+  /* Name */
+  .overview_mob__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--white-color);
+    padding: 0 0 8px 8px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.25);
+  }
+
+  /* Content */
+  .overview_mob__content {
+    display: flex;
+    color: var(--white-color);
+    justify-content: space-between;
+    margin: 16px 8px 0 8px;
+  }
+
+  .overview_mob__content p {
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 8px;
+  }
+
+  .overview_mob__content span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

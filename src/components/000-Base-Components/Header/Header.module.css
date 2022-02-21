@@ -1,0 +1,330 @@
+/* Main Header */
+.header__dataResults {
+  background-color: var(--white-color);
+  box-shadow: var(--shadow-effect);
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.header__dataResults li {
+  list-style-type: none;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.header__dataResults li:hover {
+  background-color: var(--grey-shade1);
+}
+
+.header__dataResults p {
+  color: var(--text-primary);
+  font-size: 13px;
+}
+
+.header__dataResults span {
+  color: var(--primary-color);
+  font-size: 11px;
+}
+
+.header__container {
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+.header__container a {
+  color: var(--white-color);
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.header > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* Image-Logo */
+
+.header__image_container {
+  max-width: 188.95px;
+  max-height: 48px;
+}
+
+.header__logo {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Search-Container */
+
+.header__search_box,
+.header__search_box_secondary {
+  width: 569px;
+  height: 48px;
+  background: var(--white-color);
+  border-radius: 8px;
+}
+
+.header__search_box > form,
+.header__search_box_secondary > form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.header__search_box > form > input,
+.header__search_box_secondary > form > input {
+  width: 100%;
+  height: 17px;
+  border: 0px;
+  outline: none;
+}
+
+.header__search_icon {
+  background: var(--white-color);
+  color: #004aad;
+  font-size: 35px;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.header__search_logo_box {
+  position: relative;
+  width: 63px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header__search_logo_box > span::before {
+  content: "〇";
+  color: #004aad;
+  font-size: 24px;
+}
+
+.header__search_logo_box > span::after {
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: 35px;
+  width: 5px;
+  height: 2px;
+  background-color: #004aad;
+  transform: rotate(45deg);
+  border-radius: 50%;
+}
+
+/* Header Text - How it works? */
+
+.header__text {
+  line-height: 24px;
+  color: var(--white-color);
+  text-align: center;
+  vertical-align: auto;
+}
+
+/* Button - Login/Register */
+
+.header__button > button {
+  padding: 8px 32px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Components */
+
+/* .header__menu_icon {
+    display: none;
+    width: 36px;
+    height: 36px;
+    color: var(--white-color);
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.header__menu_icon > svg {
+    font-size: 28px;
+    cursor: pointer;
+} */
+
+.header__login_logo,
+.header__login_logo_user {
+  display: none;
+  width: 36px;
+  height: 36px;
+  color: var(--white-color);
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px !important;
+  position: relative;
+  cursor: pointer;
+}
+
+.header__login_logo > svg,
+.header__login_logo_user > svg {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.header__login_logo_user {
+  display: flex;
+}
+
+.header__login_logo_user > svg {
+  width: 40px;
+  height: 40px;
+}
+
+.header__log {
+  width: 100%;
+  margin-left: 5px;
+}
+
+.header__log > p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: max-content;
+  margin-bottom: 4px;
+}
+
+.header__log > span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--secondary-color);
+}
+
+.header__search_box_secondary {
+  display: none;
+}
+
+/* NavBar Components */
+.header__menus_hide {
+  display: none;
+}
+
+.header__menus {
+  display: flex;
+}
+
+.hover_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 40px;
+  left: -15px;
+}
+
+/*  */
+.hover_content span {
+  color: var(--text-primary);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hover_content a {
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.hover_content span:hover {
+  background-color: #ddd;
+}
+
+.header__login_logo_user:hover .hover_content {
+  display: block;
+}
+
+/* Responsive at min-width 1250px */
+@media screen and (min-width: 1250px) {
+  .header {
+    max-width: 80%;
+  }
+}
+
+/* Responsive - 1250px */
+@media screen and (max-width: 1250px) {
+  .header {
+    max-width: 1220px;
+  }
+}
+
+/* Responsive - 1230px */
+@media screen and (max-width: 1250px) {
+  .header__log {
+    display: none;
+  }
+  .hover_content {
+    left: -119px;
+  }
+  .header__login_logo_user > svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Responsive - 768px */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 50px;
+    justify-content: space-between;
+  }
+
+  /* Search-Container */
+  .header__search_box {
+    display: none;
+  }
+
+  /* Header Text - How it works? */
+  .header__text {
+    display: none;
+  }
+
+  /* Button - Login/Register */
+  .header__button {
+    display: none;
+  }
+
+  /* Image-Logo */
+  .header__image_container {
+    max-width: 125px;
+    max-height: 32px;
+  }
+
+  /* Hamburger Menu Icon */
+  .header__menu_icon {
+    display: flex;
+  }
+
+  /* Header - Login Logo */
+  .header__login_logo {
+    display: flex;
+  }
+}

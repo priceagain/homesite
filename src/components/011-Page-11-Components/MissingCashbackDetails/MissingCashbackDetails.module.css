@@ -1,0 +1,91 @@
+.missing_cashback_details {
+    margin-top: 64px;
+}
+
+/* Heading */
+.missing_cashback_details__text_heading h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+/* Form */
+.missing_cashback_details__container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.missing_cashback_details__container > form > label {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0 8px;
+}
+
+.missing_cashback_details__star::after {
+    content: "*";
+    color: red;
+}
+
+.missing_cashback_details__container > form > input, .missing_cashback_details__container > form > textarea {
+    padding: 12px 24px;
+    max-width: 380px;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    background: var(--background-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+.missing_cashback_details__container > form > input::-webkit-outer-spin-button,
+.missing_cashback_details__container > form > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.missing_cashback_details__container > form > input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.missing_cashback_details__container button {
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 380px;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+    /* Heading */
+    .missing_cashback_details__text_heading h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* Form */
+    .missing_cashback_details__container > form > label {
+        line-height: 20px;
+        margin: 20px 0 8px;
+    }
+
+    .missing_cashback_details__container > form > input, .missing_cashback_details__container > form > textarea {
+        padding: 6px 12px;
+        border-radius: 4px;
+        line-height: 20px;
+    }
+
+    .missing_cashback_details__container button {
+        padding: 8px 12px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,149 @@
+/* Shop By Brands */
+.shop_by_brands {
+  margin-top: 72px;
+}
+
+/* Shop By Brands Text Container Top */
+.shop_by_brands__text_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.shop_by_brands__text_container > p {
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--text-primary);
+}
+
+.shop_by_brands__text_container > a {
+  font-size: 18px;
+  line-height: 22px;
+  color: #505050;
+}
+
+/* Brands Container */
+.shop_by_brands__brands_container {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.shop_by_brands__brands_container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Brand Image Container */
+.shop_by_brands__brand_image_container {
+  min-width: 184px;
+  height: 104px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.shop_by_brands__brand_image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop_by_brands__brand_image_container:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* Responsive max-width 991px */
+@media screen and (max-width: 991px) {
+  /* Shop By Brands */
+  .shop_by_brands {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* Shop By Brands Text Container Top */
+  .shop_by_brands__text_container {
+    margin-bottom: 20px;
+  }
+
+  .shop_by_brands__text_container > p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .shop_by_brands__text_container > a {
+    color: var(--primary-color);
+  }
+
+  /* Brand Image Container */
+  .shop_by_brands__brands_container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .shop_by_brands__brand_image_container,
+  .shop_by_brands__brand_image_container:not(:last-child) {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .shop_by_brands__brand_image_container:not(:nth-child(3n)) {
+    margin-right: 3%;
+  }
+}
+
+/* Responsive max-width 768px */
+@media screen and (max-width: 768px) {
+  /* Shop By Brands */
+  .best_products {
+    margin-top: 32px;
+  }
+
+  /* Shop By Brands Text Container Top */
+  .shop_by_brands__text_container > p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .shop_by_brands__text_container > a {
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--primary-color);
+  }
+
+  /* Brands Container */
+  .shop_by_brands__brands_container {
+    flex-wrap: initial;
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .shop_by_brands__brands_container::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .shop_by_brands__brands_container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Brand Image Container */
+  .shop_by_brands__brand_image_container,
+  .shop_by_brands__brand_image_container:not(:last-child) {
+    width: 126px;
+    height: 72px;
+    border-radius: 5.46824px;
+    margin: 0 0;
+    overflow: visible;
+  }
+
+  .shop_by_brands__brand_image_container img {
+    object-fit: cover;
+    width: 126px;
+    height: 72px;
+  }
+}
