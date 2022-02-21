@@ -1,0 +1,51 @@
+/* Main Component */
+.searchComponent {
+  margin-top: 70px;
+  height: 100vh;
+}
+
+/* DataResult */
+.searchComponent__dataResults {
+  background-color: var(--white-color);
+  box-shadow: var(--shadow-effect);
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.searchComponent__dataResults li {
+  list-style-type: none;
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.searchComponent__dataResults li:hover {
+  background-color: var(--grey-shade1);
+}
+
+.searchComponent__dataResults p {
+  color: var(--text-primary);
+  font-size: 13px;
+}
+
+.searchComponent__dataResults span {
+  color: var(--primary-color);
+  font-size: 11px;
+}
+
+/* Input */
+.searchComponent__input {
+  display: flex;
+  align-items: center;
+}
+
+.searchComponent__input svg {
+  margin-right: 10px;
+}
+
+.searchComponent__input input {
+  border: none;
+  outline: none;
+  background-color: var(--background-color);
+}

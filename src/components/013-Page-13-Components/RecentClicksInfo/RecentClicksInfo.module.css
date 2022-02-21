@@ -1,0 +1,155 @@
+.recent_clicksinfo {
+    margin-top: 32px;
+    padding-bottom: 20px;
+}
+
+/* Heading */
+.recent_clicksinfo__text_heading {
+    margin-bottom: 48px;
+}
+
+.recent_clicksinfo__text_heading h1 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.recent_clicksinfo__text_heading > h1 > a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--text-primary);
+}
+
+/* Paragraph */
+.recent_clicksinfo__text_heading > p {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-secondary);
+}
+
+/* Card */
+.recent_clicksinfo__card {
+    padding: 24px 32px;
+    margin-top: 24px;
+    background: var(--background-color);
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.recent_clicksinfo__card_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent_clicksinfo__card_head h6 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent_clicksinfo__card_head h6 span {
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+
+.recent_clicksinfo__progress {
+    margin-top: 48px;
+}
+
+/* Infor Card */
+.recent_clicksinfo__infocard {
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+    padding: 40px;
+    margin-top: 75px;
+}
+
+.recent_clicksinfo__info:not(:first-child) {
+    margin-top: 24px;
+}
+
+.recent_clicksinfo__infocard h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.recent_clicksinfo__infocard p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-secondary);
+    margin-top: 8px;
+}
+
+/* Responsive 991px */
+@media screen and (max-width: 991px) {
+    /* Heading */
+    .recent_clicksinfo__text_heading {
+        margin-bottom: 34px;
+    }
+
+    .recent_clicksinfo__text_heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+
+    /* Paragraph */
+    .recent_clicksinfo__text_heading > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    /* Heading */
+    .recent_clicksinfo__text_heading {
+        margin: 74px 0 24px 0;
+    }
+
+    .recent_clicksinfo__text_heading h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+
+    /* Paragraph */
+    .recent_clicksinfo__text_heading > p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 5px;
+    }
+
+    /* Card */
+    .recent_clicksinfo__card {
+        padding: 12px 16px;
+        border-radius: 4px;
+    }
+
+    .recent_clicksinfo__card_head h6 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .recent_clicksinfo__card_head h6 span {
+        margin-top: 2px;
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .recent_clicksinfo__progress {
+        margin-top: 24px;
+    }
+}

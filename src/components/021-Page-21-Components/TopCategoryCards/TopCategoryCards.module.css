@@ -1,0 +1,165 @@
+/* Card Container */
+.trending_stores__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+/* Trending Store */
+.trending_store__card {
+  background: var(--white-color);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 19%;
+  height: 160px;
+  margin-top: 32px;
+  padding: 10px;
+}
+
+.trending_store__card > span {
+  text-align: center;
+}
+
+.trending_store__card:not(:nth-child(5n)) {
+  margin-right: 18px;
+}
+
+/* Trending Store Image */
+.trending_store__image_container {
+  width: 80px;
+  height: 80px;
+}
+
+.trending_store__image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Trending Store Button */
+.trending_store__card button {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Trending Stores */
+.trending_stores_cards__text_container {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--text-primary);
+  margin: 24px 0;
+}
+
+/* Responsive 1824px */
+@media screen and (max-width: 1823px) {
+  /* Trending Store */
+  .trending_store__card {
+    width: 19%;
+  }
+
+  .trending_store__card:not(:nth-child(5n)) {
+    margin-right: 16px;
+  }
+}
+
+/* Responsive 1623px */
+@media screen and (max-width: 1623px) {
+  /* Trending Store */
+  .trending_store__card {
+    width: 19%;
+  }
+
+  .trending_store__card:not(:nth-child(5n)) {
+    margin-right: 14px;
+  }
+}
+
+/* Responsive 1424px */
+@media screen and (max-width: 1424px) {
+  /* Trending Store */
+  .trending_store__card {
+    width: 18%;
+  }
+
+  .trending_store__card:not(:nth-child(5n)) {
+    margin-right: 2.5%;
+  }
+
+  /* Trending Store Button */
+  .trending_store__card button {
+    padding: 10px 18px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+/* Responsive 991px */
+@media screen and (max-width: 991px) {
+  /* Trending Store Button */
+  .trending_store__card button {
+    padding: 8px 16px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+  /* Trending Store */
+  .trending_store__card,
+  .trending_store__card:not(:nth-child(5n)) {
+    border-radius: 5px;
+    width: 32.5%;
+    height: 120px;
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .trending_store__card:not(:nth-child(3n)) {
+    margin-right: 8px;
+  }
+
+  /* Trending Store Button */
+  .trending_store__card button {
+    border-radius: 3;
+    margin: 10px 0 20px;
+    justify-content: center;
+  }
+
+  /* Trending Store Image */
+  .trending_store__image_container {
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Responsive 550px */
+@media screen and (max-width: 649px) {
+  /* Trending Store */
+  .trending_store__card,
+  .trending_store__card:not(:nth-child(3n)),
+  .trending_store__card:not(:nth-child(5n)) {
+    width: 48%;
+    margin-right: 0;
+  }
+
+  /* Card Container */
+  .trending_stores__container {
+    justify-content: space-between;
+  }
+}

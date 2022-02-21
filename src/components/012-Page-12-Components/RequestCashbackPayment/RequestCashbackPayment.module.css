@@ -1,0 +1,168 @@
+/* Dropdown */
+.request_cashback_payment__dropdown label:first-child {
+    color: var(--secondary-color);
+}
+
+/* Button */
+.request_cashback_payment__neft__container button, .request_cashback_payment__gift__container button {
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+/* Form */
+.request_cashback_payment__neft__container > form, .request_cashback_payment__gift__container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.request_cashback_payment__neft__container > form > input, .request_cashback_payment__gift__container > form > input {
+    padding: 12px 24px;
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    background: var(--background-color);
+    margin-top: 16px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.request_cashback_payment__neft__container > form > input::-webkit-outer-spin-button,
+.request_cashback_payment__neft__container > form > input::-webkit-inner-spin-button,
+.request_cashback_payment__gift__container > form > input::-webkit-outer-spin-button,
+.request_cashback_payment__gift__container > form > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.request_cashback_payment__neft__container > form > input[type=number],
+.request_cashback_payment__gift__container > form > input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.request_cashback_payment__neft__container > p, .request_cashback_payment__gift__container > p {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 8px;
+    color: var(--text-secondary);
+}
+
+.request_cashback_payment__neft__container > p::before, .request_cashback_payment__gift__container > p::before {
+    content: "*";
+    color: var(--secondary-color);
+}
+
+.request_cashback_payment__radio {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.request_cashback_payment__radio label input {
+    color: var(--secondary-color);
+}
+
+.request_cashback_payment__email {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-secondary);
+}
+
+.request_cashback_payment__email input {
+    padding: 12px 24px;
+    width: 70%;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    outline: none;
+    background: var(--background-color);
+}
+
+.request_cashback_payment__email label {
+    padding: 12px 24px;
+    width: 28%;
+    margin-right: 2%;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.request_cashback_payment__radio input[type='radio']::after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--orange-shade2);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.request_cashback_payment__radio input[type='radio']:checked::after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: var(--secondary-color);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid var(--orange-shade2);
+}
+
+.request_cashback_payment__radio label {
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.request_cashback_payment__gcard {
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+   /* Button */
+   .request_cashback_payment__neft__container button, .request_cashback_payment__gift__container button {
+    margin-top: 32px;
+    padding: 10px 12px;
+    font-size: 12px;
+   } 
+
+   .request_cashback_payment__email > label {
+        padding: 8px 12px;
+    }
+
+    .request_cashback_payment__neft__container > form > input, .request_cashback_payment__gift__container > form > input {
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .request_cashback_payment__radio {
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+}

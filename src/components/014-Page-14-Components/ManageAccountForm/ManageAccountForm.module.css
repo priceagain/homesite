@@ -1,0 +1,122 @@
+.manage_account_form {
+  margin-top: 32px;
+}
+
+/* Heading */
+.manage_account_form__text_heading h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.manage_account_form__text_heading > h1 > a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--text-primary);
+}
+
+/* Paragraph */
+.manage_account_form__text_heading > p {
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--text-secondary);
+  margin: 16px 0 40px;
+}
+
+/* Container */
+.manage_account_form__container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.manage_account_form__container > form > input {
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 32px;
+  background-color: var(--background-color);
+  border: 2px solid #c7c7c7;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.manage_account_form__container > form > button {
+  padding: 12px 24px;
+  max-width: 400px;
+  width: 100%;
+  border: 4px;
+  margin: 16px 0 90px;
+  cursor: pointer;
+}
+
+/* Note */
+.manage_account_form__note {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: var(--text-secondary);
+  background-color: var(--grey-shade1);
+  padding: 24px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.manage_account_form__note > p > span {
+  font-weight: 500;
+  font-size: 21px;
+  margin-right: 5px;
+}
+
+.manage_account_form__note > p > a {
+  text-decoration: underline;
+  padding-left: 3px;
+}
+
+/* Responsive 991px */
+@media screen and (max-width: 991px) {
+  /* Heading */
+  .manage_account_form__text_heading h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .manage_account_form__container > form > input {
+    padding: 12px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+  .manage_account_form {
+    margin-top: 82px;
+  }
+
+  /* Heading */
+  .manage_account_form__text_heading h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .manage_account_form__text_heading > p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .manage_account_form__container > form > input {
+    padding: 8px;
+    margin-bottom: 24px;
+  }
+}

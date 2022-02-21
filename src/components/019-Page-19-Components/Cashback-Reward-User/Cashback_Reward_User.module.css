@@ -1,0 +1,150 @@
+.cashback_reward_user {
+    margin-top: 80px;
+}
+
+/* Container */
+.cashback_reward_user__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* Image */
+.cashback_reward_user__image_container {
+    display: flex;
+    align-items: center;
+}
+
+.cashback_reward_user__image_container > img {
+    max-width: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cashback_reward_user__image_container > svg {
+    margin: 0 16px;
+}
+
+/* Text */
+.cashback_reward_user__text {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cashback_reward_user__text > p {
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--text-secondary);
+}
+
+.cashback_reward_user__text > h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: var(--secondary-color);
+    margin-bottom: 56px;
+}
+
+.cashback_reward_user__text > h6 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 40px 0 32px;
+}
+
+.cashback_reward_user__link {
+    margin: 100px 0;
+}
+
+.cashback_reward_user__link > span {
+    color: var(--secondary-color);
+    font-size: 28px;
+}
+
+/* Responsive at 991px */
+@media screen and (max-width: 991px) {
+    /* Image */
+    .cashback_reward_user__image_container > img {
+        max-width: 130px;
+    }
+
+    .cashback_reward_user__image_container > svg {
+        margin: 0 12px;
+    }
+
+    /* Text */
+    .cashback_reward_user__text {
+        margin: 36px 0;
+    }
+
+    .cashback_reward_user__text > p {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .cashback_reward_user__text > h2 {
+        font-size: 50px;
+        line-height: 60px;
+        color: var(--secondary-color);
+        margin-bottom: 40px;
+    }
+
+    .cashback_reward_user__text > h6 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .cashback_reward_user__link > span {
+        font-size: 24px;
+    }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+    /* Container */
+    .cashback_reward_user__container {
+        margin: 200px 0 100px;
+    }
+
+    /* Image */
+
+    .cashback_reward_user__image_container > img {
+        max-width: 100px;
+    }
+
+    .cashback_reward_user__image_container > svg {
+        margin: 0 10px;
+    }
+
+    /* Text */
+    .cashback_reward_user__text {
+        margin: 32px 0;
+    }
+
+    .cashback_reward_user__text > p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .cashback_reward_user__text > h2 {
+        font-size: 32px;
+        line-height: 48px;
+        margin: 24px 0;
+    }
+
+    .cashback_reward_user__text > h6 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 8px 0 0;
+    }
+
+    .cashback_reward_user__link {
+        margin: 32px 0;
+    }
+
+    .cashback_reward_user__link > span {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,102 @@
+.contact_us_form {
+  margin-top: 32px;
+}
+
+/* Heading */
+.contact_us_form__text_heading h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.contact_us_form__text_heading > h1 > a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--text-primary);
+}
+
+/* Paragraph */
+.contact_us_form__text_heading > p {
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--text-secondary);
+  margin: 16px 0 40px;
+}
+
+/* Container */
+.contact_us_form__container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_us_form__container > form > input,
+.contact_us_form__container > form > textarea {
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 32px;
+  background-color: var(--background-color);
+  border: 2px solid #c7c7c7;
+  outline: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact_us_form__container > form > button {
+  padding: 12px 24px;
+  max-width: 400px;
+  width: 100%;
+  border: 4px;
+  margin: 16px 0 90px;
+  cursor: pointer;
+}
+
+/* Responsive 991px */
+@media screen and (max-width: 991px) {
+  /* Heading */
+  .contact_us_form__text_heading h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .contact_us_form__container > form > input,
+  .contact_us_form__container > form > textarea {
+    padding: 12px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+  .contact_us_form {
+    margin-top: 82px;
+  }
+
+  /* Heading */
+  .contact_us_form__text_heading h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .contact_us_form__text_heading > p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .contact_us_form__container > form > input,
+  .contact_us_form__container > form > textarea {
+    padding: 8px;
+    margin-bottom: 24px;
+  }
+}
