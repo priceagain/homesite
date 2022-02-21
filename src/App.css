@@ -1,0 +1,22 @@
+main {
+  overflow: hidden;
+}
+
+/* Base */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button */
+
+button {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}

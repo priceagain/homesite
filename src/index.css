@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #073cae;
+  --blue-shade1: #6182cb;
+  --blue-shade2: #a6b9e2;
+  --blue-shade3: #d7e0f2;
+  --blue-shade4: #f5f7fc;
+  --secondary-color: #ff7a00;
+  --orange-shade1: #ffaa5c;
+  --orange-shade2: #ffcfa3;
+  --orange-shade3: #ffead6;
+  --orange-shade4: #fffaf5;
+  --background-color: #f9f9f9;
+  --grey-shade1: #eeeeee;
+  --grey-shade2: #fbfbfb;
+  --white-color: #ffffff;
+  --text-primary: #121212;
+  --text-secondary: #6a6a6a;
+  --error-color: #eb5757;
+  --red-shade: #fef7f7;
+  --success-color: #219653;
+  --green-shade: #e9f4ee;
+  --shadow-effect: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Background Color */
+  background-color: var(--background-color);
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 991px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
