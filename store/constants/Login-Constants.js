@@ -1,1 +1,0 @@
-export const LOGIN_MODAL_TOGGLE = "LOGIN_MODAL_TOGGLE";
