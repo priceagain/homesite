@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.957dfc4a.chunk.css",
+    "main.js": "/static/js/main.e583f36c.chunk.js",
+    "main.js.map": "/static/js/main.e583f36c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.caceffde.js",
+    "runtime-main.js.map": "/static/js/runtime-main.caceffde.js.map",
+    "static/css/2.c8956ef5.chunk.css": "/static/css/2.c8956ef5.chunk.css",
+    "static/js/2.838f12b0.chunk.js": "/static/js/2.838f12b0.chunk.js",
+    "static/js/2.838f12b0.chunk.js.map": "/static/js/2.838f12b0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c8956ef5.chunk.css.map": "/static/css/2.c8956ef5.chunk.css.map",
+    "static/css/main.957dfc4a.chunk.css.map": "/static/css/main.957dfc4a.chunk.css.map",
+    "static/js/2.838f12b0.chunk.js.LICENSE.txt": "/static/js/2.838f12b0.chunk.js.LICENSE.txt",
+    "static/media/Invite-img.bd24d742.png": "/static/media/Invite-img.bd24d742.png",
+    "static/media/Login-img1.3c4d32a0.png": "/static/media/Login-img1.3c4d32a0.png",
+    "static/media/Login-img2.2d70bd62.png": "/static/media/Login-img2.2d70bd62.png",
+    "static/media/Product_Image_1.5608d2ad.png": "/static/media/Product_Image_1.5608d2ad.png",
+    "static/media/ReferAndEarn-img1.695cbd44.png": "/static/media/ReferAndEarn-img1.695cbd44.png",
+    "static/media/ReferAndEarn-img2.6f37ec96.png": "/static/media/ReferAndEarn-img2.6f37ec96.png",
+    "static/media/best-deals-img.dc36341e.png": "/static/media/best-deals-img.dc36341e.png",
+    "static/media/carousel-img1.ca8bb71c.png": "/static/media/carousel-img1.ca8bb71c.png",
+    "static/media/carousel-img2.d47582fc.png": "/static/media/carousel-img2.d47582fc.png",
+    "static/media/cashback-img1.e3140163.png": "/static/media/cashback-img1.e3140163.png",
+    "static/media/cashback-img2.401d632e.png": "/static/media/cashback-img2.401d632e.png",
+    "static/media/cashback-img3.784eba08.png": "/static/media/cashback-img3.784eba08.png",
+    "static/media/cashback-img4.c437eaca.png": "/static/media/cashback-img4.c437eaca.png",
+    "static/media/cashback-img5.e192d527.png": "/static/media/cashback-img5.e192d527.png",
+    "static/media/logo.1daa42e0.png": "/static/media/logo.1daa42e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caceffde.js",
+    "static/css/2.c8956ef5.chunk.css",
+    "static/js/2.838f12b0.chunk.js",
+    "static/css/main.957dfc4a.chunk.css",
+    "static/js/main.e583f36c.chunk.js"
+  ]
+}
