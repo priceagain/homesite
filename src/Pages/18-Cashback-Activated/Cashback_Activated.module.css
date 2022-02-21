@@ -1,0 +1,44 @@
+.cashback_activated {
+    max-width: 1345px;
+    margin: 0 auto;
+}
+  
+.cashback_activated__container {
+    margin: 0 10px;
+}
+
+/* Banner Image */
+.cashback_activated__banner_image {
+  margin-top: 102px;
+}
+  
+/* Best Products Name */
+.cashback_activated__best_products {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--text-primary);
+  margin: 24px 0 18px;
+}
+
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+    .cashback_activated {
+      max-width: 1224px;
+    }
+}
+  
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+    .cashback_activated {
+      max-width: 80%;
+    }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .cashback_activated__banner_image {
+    margin: 66px 0 20px 0;
+  }
+}
+  

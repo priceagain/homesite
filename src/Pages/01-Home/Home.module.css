@@ -1,0 +1,26 @@
+.title {
+  color: red;
+}
+
+.home {
+  max-width: 1345px;
+  margin: 0 auto;
+}
+
+.home__container {
+  margin: 0 10px;
+}
+
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+  .home {
+    max-width: 1224px;
+  }
+}
+
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+  .home {
+    max-width: 80%;
+  }
+}

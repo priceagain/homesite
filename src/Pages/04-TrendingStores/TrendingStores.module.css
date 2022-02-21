@@ -1,0 +1,36 @@
+/* Trending Stores */
+.trending_stores {
+    max-width: 1345px;
+    margin: 0 auto;
+}
+  
+.trending_stores__container {
+    margin: 0 10px;
+}
+
+/* Banner Image */
+.trending_stores__banner_image {
+  margin-top: 102px;
+}
+  
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+    .trending_stores {
+      max-width: 1224px;
+    }
+}
+  
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+    .trending_stores {
+      max-width: 80%;
+    }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .trending_stores__banner_image {
+    margin: 66px 0 20px 0;
+  }
+}
+  

@@ -1,0 +1,22 @@
+.cashback_activated {
+    max-width: 1345px;
+    margin: 0 auto;
+}
+  
+.cashback_activated__container {
+    margin: 0 10px;
+}
+
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+    .cashback_activated {
+      max-width: 1224px;
+    }
+}
+  
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+    .cashback_activated {
+      max-width: 80%;
+    }
+}

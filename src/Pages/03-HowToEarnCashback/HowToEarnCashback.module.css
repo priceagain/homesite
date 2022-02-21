@@ -1,0 +1,69 @@
+/* Earn Cashback */
+.earn_cashback {
+    max-width: 1345px;
+    margin: 0 auto;
+}
+
+.earn_cashback__container {
+    margin: 112px 0px 0px 10px;
+}
+
+/* Previous Link */
+.earn_cashback__previous_page {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.product__previous_page_link {
+    color: var(--text-secondary);
+    padding-right: 5px;
+}
+
+/* Heading */
+.earn_cashback__heading > h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 96px;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+    .earn_cashback {
+      max-width: 1224px;
+    }
+}
+  
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+    .earn_cashback {
+      max-width: 80%;
+    }
+}
+  
+/* Responsive at 991px */
+@media screen and (max-width: 991px) {
+    /* Heading */
+    .earn_cashback__heading > h1{
+        font-size: 30px;
+        line-height: 66px;
+    }
+}
+  
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+    .earn_cashback__container {
+        margin-top: 80px;
+    }
+
+    /* Heading */
+    .earn_cashback__heading > h1{
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 32px;
+    }
+
+}
+  

@@ -1,0 +1,51 @@
+/* Trending Stores */
+.all_best_deals {
+  max-width: 1345px;
+  margin: 0 auto;
+}
+
+.all_best_deals__container {
+  margin: 0 10px;
+}
+
+/* Banner Image */
+.all_best_deals__banner_image {
+  margin-top: 102px;
+}
+
+/* Best Products Name */
+.all_best_deals__best_products {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--text-primary);
+  margin: 24px 0 18px;
+}
+
+.all_best_deals__trending_stores {
+  margin-top: 70px;
+}
+
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+  .all_best_deals {
+    max-width: 1224px;
+  }
+}
+
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+  .all_best_deals {
+    max-width: 80%;
+  }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .all_best_deals__banner_image {
+    margin: 66px 0 20px 0;
+  }
+  .all_best_deals__trending_stores {
+    margin-top: 40px;
+  }
+}

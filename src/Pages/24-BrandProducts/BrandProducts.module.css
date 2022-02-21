@@ -1,0 +1,51 @@
+/* Trending Stores */
+.brand__products {
+  max-width: 1345px;
+  margin: 0 auto;
+}
+
+.brand__products__container {
+  margin: 0 10px;
+}
+
+/* Banner Image */
+.brand__products__banner_image {
+  margin-top: 102px;
+}
+
+/* Best Products Name */
+.brand__products__best_products {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--text-primary);
+  margin: 24px 0 18px;
+}
+
+.brand__products__trending_stores {
+  margin-top: 70px;
+}
+
+/* Responsive at 1250px */
+@media screen and (max-width: 1250px) {
+  .brand__products {
+    max-width: 1224px;
+  }
+}
+
+/* Responsive at 1250px */
+@media screen and (min-width: 1250px) {
+  .brand__products {
+    max-width: 80%;
+  }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .brand__products__banner_image {
+    margin: 66px 0 20px 0;
+  }
+  .brand__products__trending_stores {
+    margin-top: 40px;
+  }
+}
